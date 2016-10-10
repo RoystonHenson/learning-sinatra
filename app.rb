@@ -1,5 +1,13 @@
 require 'sinatra'
 
 get '/' do
- "Hello Universe!"
+ "Hello Miss Universe!"
+end
+
+get "/secret" do
+  "Apples"
+end
+
+get "/blob" do
+  "Blob"
 end
